@@ -1,0 +1,9 @@
+package io.github.anantharajuc;
+
+public class VariableScope
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

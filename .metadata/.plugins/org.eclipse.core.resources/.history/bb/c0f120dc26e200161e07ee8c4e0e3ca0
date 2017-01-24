@@ -1,0 +1,14 @@
+package io.github.anantharajuc;
+
+public class VariableScope
+{
+	int age = 10; // Visible in main
+	static int id = 123;
+	
+
+	public static void main(String[] args)
+	{
+		id = 134;
+		
+	}
+}

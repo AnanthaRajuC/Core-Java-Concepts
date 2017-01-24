@@ -1,0 +1,12 @@
+package io.github.anantharajuc;
+
+public class VariableScope
+{
+	int n1 // Visible in main
+	
+	n1 = 10;
+	public static void main(String[] args)
+	{
+		
+	}
+}
