@@ -1,0 +1,21 @@
+package io.github.anantharajuc;
+
+import java.util.ArrayList;
+
+public class ArrayListExample
+{
+	public static void main(String[] args)
+	{
+		//Creating arraylist  
+		ArrayList<String> SlayerBandMembers = new ArrayList<String>();
+		
+		//Adding object to arraylist  
+		SlayerBandMembers.add("Tom Araya");
+		SlayerBandMembers.add("Kerry King");
+		SlayerBandMembers.add("Jeff Hanneman");
+		SlayerBandMembers.add("Dave Lombardo");
+		
+		//Traversing list through Iterator  
+
+	}
+}

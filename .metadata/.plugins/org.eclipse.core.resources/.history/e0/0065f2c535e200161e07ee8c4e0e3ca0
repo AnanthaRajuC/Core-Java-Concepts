@@ -1,0 +1,33 @@
+package io.github.anantharajuc;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListUserDefinedClassObject
+{
+	int		AlbumReleaseYear;
+	String	AlbumName;
+
+	public ArrayListUserDefinedClassObject(int albumReleaseYear, String albumName)
+	{
+		this.AlbumReleaseYear = albumReleaseYear;
+		this.AlbumName = albumName;
+	}
+
+	public static void main(String[] args)
+	{
+		//Creating user-defined class objects  
+		ArrayListUserDefinedClassObject Slayer = new ArrayListUserDefinedClassObject(1986, "Reign in Blood");
+		ArrayListUserDefinedClassObject Metallica = new ArrayListUserDefinedClassObject(2016, "Hardwired to Self Destruct");
+		
+		//creating arraylist  
+		ArrayList<ArrayListUserDefinedClassObject> ThrashMetalIcons = new ArrayList<ArrayListUserDefinedClassObject>();
+		
+		ThrashMetalIcons.add(Slayer);
+		ThrashMetalIcons.add(Metallica);
+		
+		//Getting Iterator  
+		Iterator Itr = ThrashMetalIcons.iterator();
+
+	}
+}

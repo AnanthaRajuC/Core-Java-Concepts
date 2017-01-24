@@ -1,0 +1,12 @@
+package io.github.anantharajuc;
+
+import java.util.*;
+
+public class ArrayListExample
+{
+	public static void main(String[] args)
+	{
+		ArrayList SlayerBand = new ArrayList<String>;
+
+	}
+}

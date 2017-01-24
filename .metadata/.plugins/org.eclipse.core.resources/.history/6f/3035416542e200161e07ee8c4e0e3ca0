@@ -1,0 +1,12 @@
+package io.github.anantharajuc;
+
+import java.util.Hashtable;
+
+public class HashTableExample
+{
+	public static void main(String[] args)
+	{
+		Hashtable<Integer,String> SoftwareCompanies = new Hashtable<Integer,String>();
+	
+	}
+}

@@ -1,0 +1,18 @@
+package io.github.anantharajuc;
+
+public class ArrayListUserDefinedClassObject
+{
+	int		AlbumReleaseYear;
+	String	AlbumName;
+
+	public ArrayListUserDefinedClassObject(int albumReleaseYear, String albumName)
+	{
+		this.AlbumReleaseYear = albumReleaseYear;
+		this.AlbumName = albumName;
+	}
+
+	public static void main(String[] args)
+	{
+
+	}
+}

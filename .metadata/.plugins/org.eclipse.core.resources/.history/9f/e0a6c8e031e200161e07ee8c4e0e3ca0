@@ -1,0 +1,10 @@
+package io.github.anantharajuc;
+
+public class ArrayList
+{
+	public static void main(String[] args)
+	{
+		//ArrayList<String> SlayerBand = new ArrayList<String>;
+
+	}
+}

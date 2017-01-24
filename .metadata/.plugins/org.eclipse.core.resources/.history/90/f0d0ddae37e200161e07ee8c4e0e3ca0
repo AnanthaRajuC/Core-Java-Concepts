@@ -1,0 +1,21 @@
+package io.github.anantharajuc;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashSetExample
+{
+	public static void main(String[] args)
+	{
+		HashSet<String> Fruits = new HashSet<String>();
+		
+		Fruits.add("Apple");
+		Fruits.add("Mango");
+		Fruits.add("Pineapple");
+		Fruits.add("Bananna");
+		
+		Iterator Itr = Fruits.iterator();
+		
+	
+	}
+}

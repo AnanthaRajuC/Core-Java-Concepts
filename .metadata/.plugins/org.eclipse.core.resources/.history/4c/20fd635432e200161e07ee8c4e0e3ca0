@@ -1,0 +1,17 @@
+package io.github.anantharajuc;
+
+import java.util.ArrayList;
+
+public class ArrayListExample
+{
+	public static void main(String[] args)
+	{
+		ArrayList<String> SlayerBandMembers = new ArrayList<String>();
+		
+		SlayerBandMembers.add("Tom Araya");
+		SlayerBandMembers.add("Kerry King");
+		SlayerBandMembers.add("Jeff Hanneman");
+		SlayerBandMembers.add("Dave Lombardo");
+
+	}
+}
