@@ -1,0 +1,14 @@
+package io.github.anantharajuc;
+
+public class ReturnStatement
+{
+	public static void main(String[] args)
+	{
+		
+	}
+	
+	static int methodTwo()
+	{
+		return 5;
+	}
+}
